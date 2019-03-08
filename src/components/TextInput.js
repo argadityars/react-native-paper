@@ -24,7 +24,7 @@ const LABEL_WIGGLE_X_OFFSET = 4;
 const FOCUS_ANIMATION_DURATION = 150;
 const BLUR_ANIMATION_DURATION = 180;
 const LABEL_PADDING_HORIZONTAL = 12;
-const RANDOM_VALUE_TO_CENTER_LABEL = 4; // Don't know why 4, but it works
+const RANDOM_VALUE_TO_CENTER_LABEL = 0; // Don't know why 4, but it works
 
 type RenderProps = {
   ref: any => void,
@@ -681,7 +681,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     left: 0,
     fontSize: 16,
-    paddingHorizontal: LABEL_PADDING_HORIZONTAL,
+    paddingHorizontal: 0,
   },
   placeholderFlat: {
     top: 19,
@@ -712,7 +712,7 @@ const styles = StyleSheet.create({
   },
   input: {
     flexGrow: 1,
-    paddingHorizontal: 12,
+    paddingHorizontal: 0,
     fontSize: 16,
     margin: 0,
     minHeight: 58,
