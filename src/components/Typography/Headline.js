@@ -31,7 +31,7 @@ const Headline = (props: Props) => (
   <StyledText
     {...props}
     alpha={0.87}
-    family="regular"
+    family="medium"
     style={[styles.text, props.style]}
   />
 );
@@ -40,7 +40,7 @@ export default Headline;
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 24,
+    fontSize: 32,
     lineHeight: 32,
     marginVertical: 2,
   },
