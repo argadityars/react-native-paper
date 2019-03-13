@@ -40,7 +40,7 @@ export default Title;
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 20,
+    fontSize: 24,
     lineHeight: 30,
     marginVertical: 2,
   },
